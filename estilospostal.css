@@ -1,0 +1,61 @@
+body{
+    background-color: #171717;
+    font-family: 'Just Another Hand', cursive;
+}
+.postal{
+    overflow: hidden;
+    background-color: whitesmoke;
+    width:330px;
+    height: 200px;
+    padding: 10px;
+     top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);position: absolute;
+   
+}
+.cabecera{
+    overflow: hidden; 
+       
+}
+.cabecera h1{
+    margin: 0;  
+}
+.cabecera img{
+    float: right;
+    max-width: 40px;    
+}
+.contenidobox{
+    overflow: hidden;
+     
+}
+.contenido p{
+    margin: 0;
+}
+.contenido {
+    float: left;
+    width: 50%;   
+}
+.formulario{
+    float: right;
+    width: 50%;
+    
+}
+.formulario input{
+    border-style: none;
+    display: block;
+    border-bottom:solid gray 1px; 
+    width: 100%;  
+}
+input{  
+    font-family: 'Just Another Hand', cursive;
+    font-size: 16px;
+}
+.boton{
+    text-align: center;
+    padding: 10px;
+}
+.boton input{
+    background-color: darkgrey;
+    border: none;
+}
+
