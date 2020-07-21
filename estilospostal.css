@@ -10,23 +10,20 @@ body{
     padding: 10px;
      top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);position: absolute;
-   
+    transform: translate(-50%, -50%);position: absolute;  
 }
 .cabecera{
-    overflow: hidden; 
-       
+    overflow: hidden;        
 }
-.cabecera h1{
+.cabecera h1{ 
     margin: 0;  
 }
 .cabecera img{
     float: right;
     max-width: 40px;    
 }
-.contenidobox{
-    overflow: hidden;
-     
+.contenido-box{
+    overflow: hidden;     
 }
 .contenido p{
     margin: 0;
@@ -37,8 +34,7 @@ body{
 }
 .formulario{
     float: right;
-    width: 50%;
-    
+    width: 50%;    
 }
 .formulario input{
     border-style: none;

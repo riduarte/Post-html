@@ -3,38 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Postal</title>
+    <title>Postal HTML</title>
     <link rel="stylesheet" href="estilospostal.css">
     <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&display=swap" rel="stylesheet">
 </head>
-<body>
-
-    <div class="postal">
-
-        <header class="cabecera">
-            <div>
-                <img src="http://assets.breatheco.de/apis/img/icon/4geeks.png"/>
-            </div>
-         
+    <body>
+        <div class="postal">
+<!-- Header de la Postal -->
+            <header class="cabecera">
+                <div>
+                    <img src="http://assets.breatheco.de/apis/img/icon/4geeks.png"/>
+                </div>
                 <h1>My postcard</h1>
-         
-        </header>
-<div class="contenidobox">
-        <div class="contenido">
-            <p>Look how awosome! This is a postcard that i created using HTML5
-                and CSS3 during my 4Geeks Academy Course!  </p>
-
-            <p>This is so cool, can't wait to start doing more stuff!! </p>
+            </header>
+<!-- Contenido Postal -->
+        <div class="contenido-box">
+                <div class="contenido">
+                    <p>Look how awosome! This is a postcard that i created using HTML5
+                        and CSS3 during my 4Geeks Academy Course!  </p>
+                    <p>This is so cool, can't wait to start doing more stuff!! </p>
+                </div>
+<!-- Formulario Postal -->
+                <from class="formulario">
+                    <input type="text" name="nombre" placeholder="Nombre">
+                    <input type="email" name="email" placeholder="Email">
+                    <input type="text" name="comentarios" placeholder="Comentarios">
+                </from>
         </div>
-        <div class="formulario">
-            <input type="text" name="nombre" placeholder="Nombre">
-            <input type="email" name="email" placeholder="Email">
-            <input type="text" name="comentarios" placeholder="Comentarios">
-         </div>
-  </div>
-       <div class="boton">
-            <input type="submit" name="boton" value="Send My Post">
-
-    </div>
-</body>
+<!--Boton de formulario -->
+            <div class="boton">
+                <input type="submit" name="boton" value="Send My Post">
+            </div>
+        </div>
+    </body>
 </html>
